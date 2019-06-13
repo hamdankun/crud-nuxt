@@ -23,6 +23,8 @@ $ yarn run generate
 
 Open another terminal
 
+``` bash
 $ yarn rest
+```
 
 For detailed explanation on how things work, checkout [Nuxt.js docs](https://nuxtjs.org).

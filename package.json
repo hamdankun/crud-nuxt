@@ -1,0 +1,29 @@
+{
+  "name": "nuxt-crud",
+  "version": "1.0.0",
+  "description": "Next Simple Crud",
+  "author": "hamdan h",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development nodemon server/index.js --watch server",
+    "rest": "nodemon rest_server/index.js",
+    "build": "nuxt build",
+    "start": "cross-env NODE_ENV=production node server/index.js",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/vuetify": "0.5.5",
+    "bcrypt": "^3.0.6",
+    "body-parser": "^1.19.0",
+    "cross-env": "^5.2.0",
+    "express": "^4.16.4",
+    "nuxt": "^2.0.0",
+    "sequelize": "^5.8.9",
+    "sqlite3": "^4.0.8"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.2"
+  }
+}
